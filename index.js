@@ -1,9 +1,6 @@
 import chalk from "chalk"
-import numVocals from "./functions.js";
+import {numVocals, bigNum} from "./functions.js";
 // console.log(chalk.grey("Hello World"));
-
-
-
 
 // let frase;
 // if (process.argv[2]) {
@@ -18,4 +15,5 @@ const frase = process.argv[2]? process.argv[2] : "Hello Boolean";
 
 console.log(chalk.cyan(frase));
 console.log(numVocals(process.argv[2]))
+console.log(bigNum(process.argv[2]))
 

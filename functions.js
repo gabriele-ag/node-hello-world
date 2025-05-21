@@ -1,5 +1,4 @@
 //////// Num Vocali
-
 function numVocals(str) {
     let count= 0;
     let vocals = "aeiou"
@@ -15,6 +14,14 @@ function numVocals(str) {
     return count
 }
 
-export default numVocals
 
-//////// 
+//////// Trova il numero maggiore
+
+function bigNum(num) {
+    return Math.max(...num)
+}
+
+
+// Esporto entrambe le funzioni
+
+export {numVocals, bigNum}
