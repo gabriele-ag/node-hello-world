@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Progetto node hello world",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriele-ag/node-hello-world.git"
+  },
+  "type": "module",
+  "author": "Gabriele Ardizzone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriele-ag/node-hello-world/issues"
+  },
+  "homepage": "https://github.com/gabriele-ag/node-hello-world#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
