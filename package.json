@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "Progetto node hello world",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js"
   },
