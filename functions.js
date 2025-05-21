@@ -18,7 +18,7 @@ function numVocals(str) {
 //////// Trova il numero maggiore
 
 function bigNum(num) {
-    return Math.max(...num)
+    return Math.max(...num.split(' '))
 }
 
 

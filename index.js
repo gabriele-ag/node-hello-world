@@ -15,5 +15,5 @@ const frase = process.argv[2]? process.argv[2] : "Hello Boolean";
 
 console.log(chalk.cyan(frase));
 console.log(numVocals(process.argv[2]))
-console.log(bigNum(process.argv[2]))
+console.log(chalk.green(bigNum(process.argv[3])))
 
