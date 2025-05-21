@@ -1,5 +1,8 @@
 import chalk from "chalk"
+import numVocals from "./functions.js";
 // console.log(chalk.grey("Hello World"));
+
+
 
 
 // let frase;
@@ -14,4 +17,5 @@ import chalk from "chalk"
 const frase = process.argv[2]? process.argv[2] : "Hello Boolean";
 
 console.log(chalk.cyan(frase));
+console.log(numVocals(process.argv[2]))
 
